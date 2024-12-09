@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ff6f61;
+  color: white;
+}
+
+.cart-icon {
+  font-size: 1.2em;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.dishes {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.dish {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.dish-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.dish-info {
+  margin-top: 10px;
+}
+
+.customizations {
+  color: #ff6f61;
+  font-weight: bold;
+}
+
+.dish-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+dish-actions button {
+  padding: 5px 10px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+dish-actions span {
+  margin: 0 10px;
+}
